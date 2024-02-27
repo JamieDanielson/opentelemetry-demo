@@ -674,6 +674,7 @@ services:
     logging: *logging
     environment:
       - ENVOY_PORT
+      - HONEYCOMB_API_KEY
 
   # Prometheus
   prometheus:
